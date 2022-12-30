@@ -1,0 +1,13 @@
+{
+  "name": "localstorageserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "setup":"npm init -y && npm i express",
+     "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
