@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "setup":"npm init -y && npm i express",
+     "setup":"npm i express fs",
      "start":"node index.js"
   },
   "keywords": [],
