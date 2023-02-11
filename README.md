@@ -1,6 +1,7 @@
 # LocalStorageServer
 Allows downloading local files<br>
-Installation: `npm init -y npm i express fs`<br>
+Installation: `npm init -y && npm i express fs`<br>
+Start: `npm start`<br>
 ```
 echo "const app = require('express')()
 fs = require('fs')
