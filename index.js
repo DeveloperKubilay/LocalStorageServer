@@ -1,6 +1,8 @@
+var port = 3000
+
 const app = require('express')()
 fs = require('fs')
-app.listen(3000)
+app.listen(port)
 
 try{fs.readdirSync('./files')}catch{fs.mkdirSync('./files')}
 app.get('/file/:file', function (req, res) {
