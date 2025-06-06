@@ -1,6 +1,6 @@
-# httpserve
+# httpsrve
 
-![httpserve](https://i.imgur.com/O6lZAA6.png)
+![httpsrv](https://i.imgur.com/O6lZAA6.png)
 
 A lightweight HTTP server to browse and download files from your local directories.
 
@@ -14,7 +14,7 @@ A lightweight HTTP server to browse and download files from your local directori
 ## Installation
 
 ```bash
-npm i httpserve -g
+npm i httpsrve -g
 ```
 
 ## Usage
@@ -22,30 +22,30 @@ npm i httpserve -g
 Basic usage (serves current directory on port 80):
 
 ```bash
-httpserve
+httpsrv
 ```
 
 Specify a different port:
 
 ```bash
-httpserve 8080
+httpsrv 8080
 ```
 
 Specify a custom directory to serve:
 
 ```bash
-httpserve 80 files
+httpsrv 80 files
 ```
 
 Specify both port and directory:
 
 ```bash
-httpserve 3000 path/to/files
+httpsrv 3000 path/to/files
 ```
 
 ## How It Works
 
-Once started, httpserve will display a message like:
+Once started, httpsrv will display a message like:
 
 ```
 Serving HTTP on 0.0.0.0 port 80 (http://localhost:80/) ...
@@ -55,7 +55,7 @@ Visit the displayed URL in your browser to browse files and directories.
 
 ## Content Types
 
-httpserve automatically detects and serves files with appropriate content types including:
+httpsrve automatically detects and serves files with appropriate content types including:
 
 - HTML (.html, .htm)
 - CSS (.css)
