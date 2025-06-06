@@ -1,6 +1,6 @@
 {
-  "name": "httpserve",
-  "version": "1.0.1",
+  "name": "httpsrve",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,18 @@
   "bin": {
     "httpsrv": "./index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "http",
+    "server",
+    "file-server",
+    "local-storage",
+    "static-server"
+  ],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeveloperKubilay/LocalStorageServer"
+  },
   "dependencies": {}
 }
