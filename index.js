@@ -8,7 +8,6 @@ const url = require('url');
 const port = Number(process.argv[2]) || 80;
 const customPath = process.argv[3] ? path.join(__dirname, process.argv[3]) : null || process.cwd();
 
-
 try {
     const pathStats = fs.statSync(customPath);
     if (!pathStats.isDirectory()) {
