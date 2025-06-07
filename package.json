@@ -1,7 +1,7 @@
 {
   "name": "httpsrve",
   "version": "1.0.2",
-  "description": "",
+  "description": "Node.js version of `python -m http.server` for local file access & download.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
